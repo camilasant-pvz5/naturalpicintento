@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { PhotosContext } from "../assets/contexts/PhotosContext";
-import IconHeart from "../components/IconHeart"; // Asegúrate de que la ruta sea correcta
+import IconHeart from "../components/IconHeart"; //
 
 const Favorites = () => {
   const { photos } = useContext(PhotosContext);
